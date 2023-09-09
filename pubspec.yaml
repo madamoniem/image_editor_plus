@@ -22,7 +22,10 @@ dependencies:
   hand_signature: ^3.0.0
   flutter_image_compress: ^2.0.3
   reorderables: ^0.6.0
-  extended_image: ^8.1.1
+  extended_image:
+    git:
+      url: https://github.com/madamoniem/extended_image.git
+      ref: master
 
 dev_dependencies:
   flutter_test:

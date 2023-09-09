@@ -84,10 +84,11 @@ packages:
   extended_image:
     dependency: "direct main"
     description:
-      name: extended_image
-      sha256: b4d72a27851751cfadaf048936d42939db7cd66c08fdcfe651eeaa1179714ee6
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: "404578e0f5959bcda60319a7b7e5bc51793b2a50"
+      url: "https://github.com/madamoniem/extended_image.git"
+    source: git
     version: "8.1.1"
   extended_image_library:
     dependency: transitive
